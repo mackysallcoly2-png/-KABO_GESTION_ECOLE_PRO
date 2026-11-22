@@ -1,0 +1,15 @@
+{
+  "name": "kabo-gestion-ecole-pro",
+  "version": "1.0.0",
+  "description": "KABO_GESTION_ECOLE_PRO — application locale autonome de gestion scolaire (KABO EDUCATION). Le livrable est index.html ; ce package ne sert qu'aux tests hors navigateur.",
+  "private": true,
+  "scripts": {
+    "test": "node tests/smoke.test.js",
+    "test:volume": "node tests/volume.test.js",
+    "demo": "node tests/gen_demo.js"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.8",
+    "jsdom": "^31.0.1"
+  }
+}
